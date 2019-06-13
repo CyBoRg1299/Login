@@ -1,0 +1,80 @@
+form {
+  border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  border: 5px dotted #ffffff;
+  height: 380px;
+}
+div.bordered {
+  -webkit-box-shadow: 0px 0px 21px 16px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 21px 16px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 21px 16px rgba(0,0,0,0.75);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8em;
+  height: 320px
+  background-color: white;
+}
+.button {
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.47);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.47);
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.47);
+  border-radius: 50%;	
+  position: relative;
+  background-color: blue;
+  border: none;
+  font-size: 15px;
+  color: white;
+  
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+input[type=text] {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ADD8E6;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+}
+input[type=password] {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ADD8E6;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+}
+.line {
+	text-shadow: 0.1em 0.1em 0.2em black
+}
